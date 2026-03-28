@@ -1,3 +1,4 @@
+
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -6,7 +7,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "status": "ok",
-        "message": "IT Helpdesk Portal is running!",
+        "message": "IT Helpdesk Portal v2.0 - Live Demo!",
         "version": "1.0.0"
     })
 
